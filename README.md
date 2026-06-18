@@ -1,13 +1,14 @@
 # Python IT Automation Suite
 
+> **Author:** Timofey Vishnevskiy  
+> **GitHub:** [@Patrick-Jane369](https://github.com/Patrick-Jane369)  
+> **Created:** 2026  
+> **Purpose:** Praktikum als Fachinformatiker (Anwendungsentwicklung) in Deutschland  
+> **License:** MIT
+
 > **EN:** One file, four tools for IT automation.  
 > **DE:** Ein Datei, vier Tools für IT-Automation.  
 > **RU:** Один файл, четыре инструмента для IT-автоматизации.
-
-**Author:** Timofey Vishnevskiy  
-**Purpose:** Praktikum als Fachinformatiker (Anwendungsentwicklung) in Deutschland  
-**License:** MIT
-
 ---
 
 ## Quick Start
