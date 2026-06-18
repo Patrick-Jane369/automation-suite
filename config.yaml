@@ -1,0 +1,55 @@
+# =============================================================================
+# IT Automation Suite - Configuration
+# =============================================================================
+# You can override any value via CLI arguments or environment variables.
+
+# -----------------------------------------------------------------------------
+# Google Drive Backup
+# -----------------------------------------------------------------------------
+gdrive:
+  folders:
+    - ./documents
+    - ./projects
+  exclude:
+    - "*.tmp"
+    - "*.log"
+    - ".git"
+    - "__pycache__"
+    - ".env"
+    - "node_modules"
+  credentials_file: credentials.json
+  token_file: token.json
+
+# -----------------------------------------------------------------------------
+# Dropbox Backup
+# -----------------------------------------------------------------------------
+dropbox:
+  folders:
+    - ./documents
+    - ./projects
+  exclude:
+    - "*.tmp"
+    - "*.log"
+    - ".git"
+    - "__pycache__"
+    - ".env"
+
+# -----------------------------------------------------------------------------
+# Password Checker
+# -----------------------------------------------------------------------------
+password:
+  input_csv: employees.csv
+  output_dir: password_reports
+  min_length: 8
+  min_score: 60
+
+# -----------------------------------------------------------------------------
+# Email Reminders
+# -----------------------------------------------------------------------------
+email:
+  input_csv: reminders.csv
+  log_file: email_log.txt
+  smtp_server: smtp.gmail.com
+  smtp_port: 587
+  from_name: Reminder System
+  # Override credentials via .env (SMTP_USER, SMTP_PASSWORD)

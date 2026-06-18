@@ -1,0 +1,9 @@
+﻿employee_id,name,email,password
+EMP001,Ivanov Ivan,ivanov@company.ru,Password123!
+EMP002,Petrova Anna,petrova@company.ru,12345678
+EMP003,Sidorov Oleg,sidorov@company.ru,MyS3cur3P@ss!
+EMP004,Kozlova Maria,kozlova@company.ru,qwerty
+EMP005,Novikov Dmitry,novikov@company.ru,Aa1!Bb2@Cc3#
+EMP006,Morozova Elena,morozova@company.ru,password
+EMP007,Volkov Alexey,volkov@company.ru,Tr0ub4dor&3
+EMP008,Lebedeva Olga,lebedeva@company.ru,11111111

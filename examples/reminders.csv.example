@@ -1,0 +1,5 @@
+﻿name,email,type,event,date,message
+Maria Ivanova,parent1@example.com,parent,Parent Meeting,01.01.2026,Please bring the diary.
+Sergey Petrov,parent2@example.com,parent,Extra courses payment,08.01.2026,Amount: 3500 EUR.
+Anna Sidorova,employee1@company.ru,employee,Project Alpha Meeting,01.01.2026,Prepare progress report.
+Dmitry Kozlov,employee2@company.ru,employee,Quarterly Report Deadline,08.01.2026,Must be approved by 17:00.
