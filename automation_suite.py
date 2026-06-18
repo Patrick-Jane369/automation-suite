@@ -374,8 +374,8 @@ def run_password_check(args: argparse.Namespace) -> None:
         has_upper = bool(re.search(r"[A-Z]", pwd))
         has_lower = bool(re.search(r"[a-z]", pwd))
         has_digit = bool(re.search(r"\d", pwd))
-        has_special = bool(re.search(r"[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>/?]", pwd))
-
+       has_special = any(c in "!@#$%^&*()_+-=[]{};:'\"\\|,.<>/?" for c in pwd)
+        
         checks = [
             (has_upper, "No uppercase letters", "Add uppercase letters"),
             (has_lower, "No lowercase letters", "Add lowercase letters"),
