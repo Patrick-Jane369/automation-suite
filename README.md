@@ -6,6 +6,11 @@
 > **Purpose:** Praktikum als Fachinformatiker (Anwendungsentwicklung) in Deutschland  
 > **License:** MIT
 
+> ## Screenshots
+
+### Password Audit Report
+![Password Report](screenshots/password-report.png)
+
 > **EN:** One file, four tools for IT automation.  
 > **DE:** Ein Datei, vier Tools für IT-Automation.  
 > **RU:** Один файл, четыре инструмента для IT-автоматизации.
